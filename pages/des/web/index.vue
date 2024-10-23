@@ -63,17 +63,23 @@
       description: 'My own idea for a wine tasting app, still in progress. I have done the coding and styling myself with Vue3 & TailwindCSS', 
       graphicDisplayImg: '/images/design/vino.png', imgDisplay: '/images/design/vino.jpg'
     },
-  
-    { type: 'Web Design & UX' , imgClass: 'w-2/3 md:w-32', title: 'First Angular App',  
-      linkToGit: 'https://github.com/CreaWebDev/Movies', linkToExt: 'https://',
-      description: 'One small app but one giant step for me;-) A project for a job interview, made with Angular', 
-      graphicDisplayImg: '/images/design/popcorn.png', imgDisplay: '/images/design/popcorn.png'
-    },
-
+    
     { type: 'Web Design & UX' , imgClass: 'w-2/3 md:w-40', title: 'This portfolio',  
       linkToGit: 'https://github.com/CreaWebDev/Designersbar', 
       description: 'My  own website, this portfolio. All design and graphics are my own. I continously improve it and try out my ideas', 
       graphicDisplayImg: '/images/bubbles_graphic.svg', imgDisplay: '/images/bubbles_graphic.png'
+    },
+
+    { type: 'Web Design & UX' , imgClass: 'w-2/3 md:w-44', title: 'Vanilla JS',  
+      linkToGit: 'https://github.com/CreaWebDev/fun-with-javascript', linkToExt: 'https://vanillafun.netlify.app/', 
+      description: 'Fun with good old JavaScript.The most simple setup, an index-file and linked css-file. Hosted on Netlify', 
+      graphicDisplayImg: '/images/design/funJS.png', imgDisplay: '/images/design/funJS.png'
+    },
+  
+    { type: 'Web Design & UX' , imgClass: 'w-2/3 md:w-34', title: 'First Angular App',  
+      linkToGit: 'https://github.com/CreaWebDev/Movies',
+      description: 'One small app but one giant step for me;-) A project for a job interview, made with Angular', 
+      graphicDisplayImg: '/images/design/popcorn.png', imgDisplay: '/images/design/popcorn.png'
     },
 
     { type: 'Web Design & UX' , imgClass: 'w-2/3 md:w-5/6 rotate-90 ', title: 'Mockup', 

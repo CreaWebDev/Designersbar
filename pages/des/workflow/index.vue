@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col w-full pl-8">
+  <section class="flex flex-col w-2/5 pl-8">
     <p class="text-darkRose text-4xl tracking-wide" style="font-family: Zeyada;">
       {{ $t("workflow.headline")}}
     </p>
