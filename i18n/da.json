@@ -1,0 +1,147 @@
+{
+    "global": {
+        "welcome": "Velkommen"
+    },
+    "menu":{
+        "home": "Hjem",
+        "workflow": "Mit workflow",
+        "web": "Frontend & UX",
+        "gallery": "Designgalleriet",
+        "timeline": "Min tidslinje",
+        "contact": "Kontakt"
+    },
+    "home": {
+        "title": "",
+        "headline": "Velkommen i baren!",
+        "description": "Jeg er den passionerede person bag disken. Mit navn er Pia, boende i Odense, Danmark. Min profession er Digital Designer og Frontend Udvikler. Design er mit liv, og jeg stræber efter at være en fusioner af UX og visuelt design. Min personlige stil er grafisk vild og organisk, eksperimenterende, nogle gange humoristisk, men mest af alt er den meget personlig. Brugerens oplevelse er altid i mine tanker og overvejelser.",
+        "end_text": "Vil du vide mere?"
+    },
+    "workflow":{
+        "headline": "Mit Workflow",
+        "subText":"Således arbejder jeg med en videnskabelig tilgang, der deler projekter op i fem, agile faser for et optimalt arbejdsflow",
+        "research_title": "1 - Research",
+        "research_text":"Jeg tilegner mig den nødvendige viden, med kvalitative og kvantitative forskningsmetoder:",
+        "research_bullets_1": "Interviews & Observationer (Kvalitative)",
+        "research_bullets_2": "Netnografi & Spørgeskemaer (Kvantitativ)",
+        "empathy_title":"2 - Empati",
+        "empathy_text": "Jeg sætter mig i brugerens sted ved at bruge empativærktøjer såsom:",
+        "empathy_bullets_1": "Persona & Scenario",
+        "empathy_bullets_2": "User Journey",
+        "empathy_bullets_3":  "Mental Model",
+        "design_title":"3 - Design",
+        "design_text": "Designteorier som jeg mestrer og bruger flittigt er:",
+        "design_bullets_1": "Konceptuel Design",
+        "design_bullets_2": "Designperspektiver",
+        "design_bullets_3": "Designprincipper & -elementer",
+        "design_bullets_4": "Farveteori",
+        "design_bullets_5": "Rule of 3rd & Gestahlt",
+        "design_bullets_6": "Affordance",
+        "craft_title":"4 - Digitalt håndværk",
+        "craft_text": "Værktøjer jeg bruger til design og frontendudvikling:",
+        "craft_bullets": "Jeg bruger en række forskellige teknologier og programmer og stræber efter at udvælge den bedst egnede til en bestemt opgave. Vue og andre JS frameworks, TailwindCSS, Adobe Cloud er nogle af mine favoritter.",
+        "doc_title":"5 - Dokumentation",
+        "doc_text": "Jeg ser en stor fordel i at dokumentere mit arbejde til senere brug, og hurtig introduktion for andre, hvis jeg arbejder i mit team:",
+        "doc_bullets_1": "Kommunikationsplan",
+        "doc_bullets_2": "Designmanual",
+        "doc_bullets_3": "StyleGuide (Digital)",
+        "doc_bullets_4": "Style Tiles"
+    },
+    "design": {
+        "headline": "Designgalleriet",
+        "logos":"Logos",
+        "graph_com": "Grafisk Kommunikation",
+        "pas_graph":"Passions Grafik & Layout",
+        "vid_mot": "Video & Motion"
+    },
+    "cv": {
+        "title": "Min tidslinje",
+        "event_1": 
+        { 
+        "date": "MAR 21 - JUN 24",
+        "title": "Digital Designer & Frontend udvikler hos Makin3D/Kinematic", "icon": "fa-solid fa-code",
+        "description": "UI/UX designer aog Frontend udvikler hos Kinematic, software virksomhed indenfor maskinstyring.",
+        "techskills": "Vue 3, NUXT, Piñia, TailwindCSS, CSS, JS/TS, PHP, Websockets, Adobe Cloud, Jira",
+        "testimony": "Pia jonglerer med mange forskellige typer opgaver og er meget populær som kollega"
+        },
+        "event_2":
+        { 
+            "date": "FEB 20 - MAR 21",
+            "title": "CORONA JOBJAGT", "icon": "fa-sol", "id": "fa-mask-face",
+            "description": "En kombination af jobjagt, hjemmeundervisning med døtre, samtidig med at man holder op med kodningsfærdigheder", 
+            "techskills": "Vue 2, VUEX, Angular 9, SCSS, JS, Adobe",
+            "testimony": "Mor er den bedste!" 
+        },
+        "event_3":
+        { 
+            "date": "2018 - JAN 20", 
+            "title": "Pba i Webudvikling på UCL in Odense m/praktik ved BeautyCos webshop", "icon": "fa-solid fa-spray-can", 
+            "description": "Afslutter med karakteren 12 i BA gruppeproject 'ShortFlix', et online forum for filmskabere.", 
+            "techskills": "Vue 2, VUEX, C#, Xamarin apps, HTML/ SCSS/JS, & e-commerce",
+            "testimony": "Hvis der er noget, Pia ikke ved, hvordan hun skal gøre, finder hun ud af det alligevel" 
+        },
+        "event_4":
+        { 
+            "date": "2016 - 18", 
+            "title": "Studerer multimediedesign på UCL m/praktik hos Farstrup Furniture.", "icon": "fa-solid fa-chair", 
+            "description": "Weboptimiering, copywriting, & grafisk design", 
+            "techskills": "HTML, CSS, JS, Wordpress, Adobe",
+            "testimony": "Når det kommer til at arbejde effektivt og ansvarligt, har Pia gjort et fantastisk stykke arbejde. Hendes kreativitet skinner igennem i flere, professionelt udseende marketingmaterialer, og vores hjemmesides 'stickyness' er blevet meget bedre"
+        },
+        "event_5":
+        { 
+            "date": "2013 - 16", 
+            "title": "Teknisk designer at Kverneland Group, Kerteminde", "icon": "fa-solid fa-tractor", 
+            "description": "2D tegning og BOM-lister til mekanisk tegning, 3D modelling og assembly, dokumentation, CAD-supporter.", 
+            "techskills": "SAP, Siemens NX, Teamcenter, CAD",
+            "testimony": "Pia har formået at skille sig ud fra den traditionelle rolle som teknisk designer, og har gjort så meget mere, end hvad man normalt kan forvente"
+        },
+        "event_6":
+        { 
+            "date": "2007 - 13", 
+            "title": "Grafisk- & Teknisk designer hos Naviair", "icon": "fa-solid fa-plane", 
+            "description": "3D modellering til Tower simulator, 2D airspace planlægningskort, dokumentation", 
+            "techskills": "AutoCAD, Microstation, Adobe",
+            "testimony": "Det selvstændige arbejde fra Pia har altid resulteret i produkter af højeste kvalitet"
+        },
+        "event_7":
+        { 
+            "date": "2002 - 07", 
+            "title": "I denne periode læser jeg til teknisk designer og får efterfølgende job, hvor jeg havde min praktik, Damgaard Rådgivende Ing.", "icon": "fa-solid fa-building", 
+            "description": "2D tegninger, CAD-adm., & marketing support", 
+            "techskills": "AutoCAD, Adobe",
+            "testimony": "Det har altid været en fornøjelse at have Pia med på holdet, da der så kunne forventes en selvstændig indsats. Vi har haft fornøjelsen af ​​Pias kreativitet, og hun er meget populær som kollega"
+        },
+        "event_8":
+        { 
+            "date": "1996 - 02", 
+            "title": "I denne periode arbejder jeg med kundeservice og markedsføring i tre forskellige virksomheder", "icon": "fa-solid fa-envelopes-bulk", 
+            "description": "Kundesupport, ordreekspeditioner, regnskab, IT support til slutbrugere", 
+            "techskills": "Navision, Avery Label program",
+            "testimony": "Pia har talent for at tale med kunder, hun er veltalende, og hun er god til at komme i gang med opgaver"
+        },
+        "event_9":
+        { 
+            "date": "1994 - 96", 
+            "title": "Frederiksberg Studenterkursus", "icon": "fa-solid fa-book", 
+            "description": "Student i enkelsfagene: matematik/englelsk/spansk", 
+            "techskills": "",
+            "testimony": ""
+        },
+        "event_10":
+        { 
+            "date": "1993 - 94", 
+            "title": "Et år i udlandet i USA", "icon": "fa-solid fa-graduation-cap", 
+            "description": "High School udvekslingsstudent på Cleveland Heights High i Ohio", 
+            "techskills": "",
+            "testimony": ""
+        }
+
+
+    },
+    "contact": {
+        "title": "Kontakt mig"
+    },
+    "web": {
+        "headline": "Frontendudvikling & UI/UX"
+    }
+}

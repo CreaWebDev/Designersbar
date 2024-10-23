@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 209.4 442.3">
+  <defs>
+    <style type="text/css">
+      .st0{fill:#806543; opacity: 0.3; stroke:none;stroke-width:0;}
+      .st1{fill:#A6607C;}
+      .top {
+            fill: #a6607c;
+            animation: topBubble 5s infinite;
+          }
+
+          @keyframes topBubble {
+            0% {
+              opacity: 0.4;
+              transform: translateX(0px) translateY(300px)
+            }
+            50% {
+              opacity: 0.2;
+              transform: translateX(5px) translateY(-55px)
+
+            }
+            100% {
+              opacity: 0;
+              transform: translateX(-5px) translateY(-105px)
+            }
+          }
+          .middle {
+            fill: #a6607c;
+            animation: middle 4s infinite;
+          }
+
+          @keyframes middle {
+            0% {
+              opacity: 0.4;
+              transform: translateX(0px) translateY(100px)
+            }
+            50% {
+              opacity: 0.2;
+              transform: translateX(5px) translateY(-55px)
+
+            }
+            100% {
+              opacity: 0;
+              transform: translateX(-5px) translateY(-105px)
+            }
+          }
+          .bottom {
+            fill: #a6607c;
+            animation: bottom 7s infinite;
+          }
+
+          @keyframes bottom {
+            0% {
+              opacity: 0.4;
+              transform: translateX(0px) translateY(50px)
+            }
+            50% {
+              opacity: 0.2;
+              transform: translateX(5px) translateY(-125px)
+
+            }
+            100% {
+              opacity: 0;
+              transform: translateX(-5px) translateY(-205px)
+            }
+          }
+    </style>
+  </defs>
+  <g>
+    <g id="Lag_1">
+      <path class="top" d="M174,188.2c-5.4,13.1-20.4,19.4-33.5,14-13.1-5.4-19.4-20.4-14-33.5,5.4-13.1,20.4-19.4,33.5-14h.1c13,5.4,19.3,20.4,13.9,33.5Z"/>
+      <path class="bottom st1" d="M154.1,377.4c-3.8,27.5-29.2,46.8-56.7,43s-46.8-29.2-43-56.7,29.2-46.8,56.7-43h0c27.5,3.7,46.8,29.1,43,56.7Z"/>
+      <path class="middle st1" d="M103.6,256.2c-2.7,19.4-20.6,33-40,30.3s-33-20.6-30.3-40,20.6-32.9,40-30.3c19.4,2.7,33,20.6,30.3,40h0Z"/>
+    </g>
+  </g>
+</svg>

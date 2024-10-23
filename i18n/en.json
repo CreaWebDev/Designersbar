@@ -1,0 +1,147 @@
+{
+    "global": {
+        "welcome": "Welcome"
+    },
+    "menu":{
+        "home": "Home",
+        "workflow": "My Workflow",
+        "web": "Frontend & UX",
+        "gallery": "Design Gallery",
+        "timeline": "My  Timeline",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "",
+        "headline": "Welcome to the Bar",
+        "description": "I am the passionate person behind it. My name is Pia, located in Odense, Denmark. My profession is Digital Designer and Frontend Developer. Design is my life, and I strive to be a fusioneer of UX and Visual Design. My personal style can be wild and organic, experimental, sometimes humoristic, but most of all it is very personal. The user´s experience is always on my mind.",
+        "end_text": "Want to learn more?"
+    },
+    "workflow":{
+        "headline": "My Workflow",
+        "subText":"This is how I work with a scientific approach, dividing projects into five, agile phases for an optimal workflow",
+        "research_title": "1 - Research",
+        "research_text":"I acquire the knowledge I need with Qualitative & Quantitative research methods:",
+        "research_bullets_1": "Interviews & Observation (Qualitative)",
+        "research_bullets_2": "Netnography & Surveys (Quantitative)",
+        "empathy_title":"2 - Empathy",
+        "empathy_text": "I put myself in the shoes of the user by the use of empathy tools such as:",
+        "empathy_bullets_1": "Persona & Scenario",
+        "empathy_bullets_2": "User Journey",
+        "empathy_bullets_3":  "Mental Model",
+        "design_title":"3 - Design",
+        "design_text": "Design theories I master and use a lot are:",
+        "design_bullets_1": "Conceptual Design",
+        "design_bullets_2": "Designperspectives",
+        "design_bullets_3": "Design principles & -elements",
+        "design_bullets_4": "Color Theory",
+        "design_bullets_5": "Rule of 3rd & Gestahlt",
+        "design_bullets_6": "Affordance",
+        "craft_title":"4 - Craftmanship",
+        "craft_text": "Tools I use for design & frontend development:",
+        "craft_bullets": "I use a variety of technologies and programs and strive to select the most suitable for a certain assignment. Vue and other JS frameworks, TailwindCSS, Adobe Cloud are some of my favorites.",
+        "doc_title":"5 - Documentation",
+        "doc_text": "I see a great advantage in documenting my work for later use, and fast introduction for others in my team:",
+        "doc_bullets_1": "Communikationsplan",
+        "doc_bullets_2": "Design Manual",
+        "doc_bullets_3": "StyleGuide (Digital)",
+        "doc_bullets_4": "Style Tiles"
+    },
+    "design": {
+        "headline": "Design Gallery",
+        "logos":"Logos",
+        "graph_com": "Graphical Communication",
+        "pas_graph":"Passion Graphics & Layout",
+        "vid_mot": "Video & Motion"
+    },
+    "cv": {
+        "title": "My timeline",
+        "event_1": 
+        { 
+        "date": "MAR 21 - JUN 24",
+        "title": "Digital Designer & Frontend Developer at Makin3D/Kinematic", "icon": "fa-solid fa-code",
+        "description": "UI/UX designer and Frontend developer at Kinematic, software development of machine control systems.",
+        "techskills": "Vue 3, NUXT, Piñia, TailwindCSS, CSS, JS/TS, Websockets, PHP, Adobe Cloud, Jira",
+        "testimony": "Pia juggles many different types of tasks and is very popular as a collegue"
+        },
+        "event_2":
+        { 
+            "date": "FEB 20 - MAR 21",
+            "title": "CORONA JOB HUNT", "icon": "fa-sol", "id": "fa-mask-face",
+            "description": "A combination of job hunting, home schooling with daughters, while keeping up coding skills", 
+            "techskills": "Vue 2, VUEX, Angular 9, SCSS, JS, Adobe",
+            "testimony": "Mommy is the best!" 
+        },
+        "event_3":
+        { 
+            "date": "2018 - JAN 20", 
+            "title": "Pba in Web Development at UCL in Odense w/ internship at BeautyCos webshop", "icon": "fa-solid fa-spray-can", 
+            "description": "Finishing with a grade of 12 in BA group project ShortFlix, a members only site for film makers.", 
+            "techskills": "Vue 2, VUEX, C#, Xamarin apps, HTML/ SCSS/JS, & e-commerce",
+            "testimony": "If there is anything Pia doesn´t know how to do, she will figure it out anyway" 
+        },
+        "event_4":
+        { 
+            "date": "2016 - 18", 
+            "title": "Study Multimediadesign at UCL w/Internship at Farstrup Furniture.", "icon": "fa-solid fa-chair", 
+            "description": "Web-optimization, copywriting, & graphic design", 
+            "techskills": "HTML, CSS, JS, Wordpress, Adobe",
+            "testimony": "When it comes to working efficiently and responsibly Pia has done a terrific job. Her creativity shines through in several, professionel-looking, marketing material, and our website´s ”stickyness” has improved a lot"
+        },
+        "event_5":
+        { 
+            "date": "2013 - 16", 
+            "title": "Technical designer at Kverneland Group, Kerteminde", "icon": "fa-solid fa-tractor", 
+            "description": "2D drafting and BOM-lists for mechanical devices, 3D modelling and assembly, documentation, CAD-supporter.", 
+            "techskills": "SAP, Siemens NX, Teamcenter, CAD",
+            "testimony": "Pia has managed to stand out from the traditional role as a technical designer, and has done so much more than what can normally be expected"
+        },
+        "event_6":
+        { 
+            "date": "2007 - 13", 
+            "title": "Graphic- & Technical designer at Naviair", "icon": "fa-solid fa-plane", 
+            "description": "3D modelling for tower simulator, 2D airspace planning maps, documentation", 
+            "techskills": "AutoCAD, Microstation, Adobe",
+            "testimony": "The independent work from Pia has always resulted in products of highest quality"
+        },
+        "event_7":
+        { 
+            "date": "2002 - 07", 
+            "title": "In this period of time I study to become a technical designer and end up where I had my internship, Damgaard Rådgivende Ing.", "icon": "fa-solid fa-building", 
+            "description": "2D drafting, CAD-adm., & marketing support", 
+            "techskills": "AutoCAD, Adobe",
+            "testimony": "It has always been a pleasure having Pia onboard the team, since an independent effort could then be expected. We have had the pleasure of Pia´s creativity and she is very popular as a collegue"
+        },
+        "event_8":
+        { 
+            "date": "1996 - 02", 
+            "title": "In this period of time I work with customer service and marketing in three different companies", "icon": "fa-solid fa-envelopes-bulk", 
+            "description": "Customer support, order expeditions, accounting, IT support for end users", 
+            "techskills": "Navision, Avery Label program",
+            "testimony": "Pia has a talent for talking to customers, she is well-spoken, and she is good at getting a start on assignments"
+        },
+        "event_9":
+        { 
+            "date": "1994 - 96", 
+            "title": "Frederiksberg Studenterkursus", "icon": "fa-solid fa-book", 
+            "description": "Single Course Student education in math/english/ spanish", 
+            "techskills": "",
+            "testimony": ""
+        },
+        "event_10":
+        { 
+            "date": "1993 - 94", 
+            "title": "A year abroud in the US", "icon": "fa-solid fa-graduation-cap", 
+            "description": "High School exchange student at Cleveland Heights High in Ohio", 
+            "techskills": "",
+            "testimony": ""
+        }
+
+
+    },
+    "contact": {
+        "title": "Get in contact"
+    },
+    "web": {
+        "headline": "Frontend Development & UI/UX"
+    }
+}
