@@ -1,7 +1,7 @@
 
 <template>
   <div class="w-2/3 pl-8">
-    <p class="text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">{{  $t("design.headline") }}</p>
+    <p class="text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">{{  $t("design_headline") }}</p>
     <section class="hidden md:flex flex-row justify-start flex-wrap fixed top-20 right-2 z-40 md:right-0 md:sticky md:top-0  mt-4">
       <button v-for="filter in filters" @click="filterDesign(filter)"
         class="py-2 px-2 md:px-4 m-2 text-xs font-sans hover:text-darkRose rounded-lg hover:bg-rose transition-all"
@@ -15,7 +15,7 @@
     </section>
     
     <p class="text-golden pt-8 uppercase font-semibold" v-if="currentFilter == 'all'">
-      {{ $t("design.logos") }}
+      {{ $t("design_logos") }}
     </p>
     <section class="flex flex-row flex-wrap justify-start">
       <div v-for="item in logoItems" >
@@ -31,7 +31,7 @@
     </section>
     
     <p class="text-golden pt-8 uppercase font-semibold" v-if="currentFilter == 'all'">
-      {{ $t("design.graph_com") }}
+      {{ $t("design_graph_com") }}
     </p>
     <section class="flex flex-row flex-wrap justify-start">
       <div v-for="item in designItems" >
@@ -48,7 +48,7 @@
       </div>
     </section>
     <p class="text-golden pt-8 uppercase font-semibold" v-if="currentFilter == 'all'">
-      {{ $t("design.pas_graph") }}
+      {{ $t("design_pas_graph") }}
     </p>
     <section class="flex flex-row flex-wrap justify-start">
       <div v-for="item in passionItems" >
@@ -65,7 +65,7 @@
     </section>
    
     <p class="text-golden pt-8 uppercase font-semibold" v-if="currentFilter == 'all'">
-      {{ $t("design.vid_mot") }}
+      {{ $t("design_vid_mot") }}
     </p>
     <section class="flex flex-row flex-wrap justify-start">
       <div v-for="item in motion">

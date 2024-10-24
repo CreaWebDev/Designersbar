@@ -8,7 +8,7 @@
                 @rerender-logo="$emit('rerenderLogo')"
             />
         </div>
-        <LangSwitch />
+        <!-- <LangSwitch /> -->
     </div>
 </template>
 

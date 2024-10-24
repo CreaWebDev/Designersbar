@@ -4,14 +4,14 @@
       <div class="flex flex-col md:flex-row">
         <div class="flex flex-col">
           <h3 class="text-darkRose font-medium text-4xl tracking-wide"
-            style="font-family: Zeyada;">{{ $t("home.headline") }}</h3>
+            style="font-family: Zeyada;">{{ $t("home_headline") }}</h3>
           <p class="text-golden font-sans text-sm max-w-md">
-           {{ $t("home.description")}}
+           {{ $t("home_description")}}
           </p>
         </div>
       </div>
       <div class="pt-8">
-        <p class="text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">{{ $t("home.end_text")}}</p>
+        <p class="text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">{{ $t("home_end_text")}}</p>
         <SoMe />
       </div>
         <NuxtPage />

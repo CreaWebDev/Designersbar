@@ -11,11 +11,11 @@
         <img class="" src="/images/bubbles.svg">
       </div>
     </div>
+    <div class="md:hidden z-50 fixed bottom-4 right-4">
+        <LangSwitch />
+    </div>
     <div class="fixed bottom-4 pl-8">
       <Footer />
-    </div>
-    <div class="fixed bottom-5 right-5 z-50">
-      <LangSwitch />
     </div>
     
   </div>
@@ -40,9 +40,6 @@ window.onscroll = () => {
   setTimeout(() => {
     bubbleUp.value = false}, 3000)
 }
-
-const bgClass = ref('bg-[url("/images/bg/bg.svg")]')
-const bgMobileClass = ref('bg-[url("/images/bg/bg_mobile.svg")]')
 
 onMounted(() => {
   windowInnerWidth.value = window.innerWidth

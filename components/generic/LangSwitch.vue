@@ -1,16 +1,20 @@
 <template>
-  <div class="flex flex-row w-28 justify-around">
-    <button v-for="lang in locales" :key="lang.name"
-        @click="setLocale(lang.code)"
-        class="w-10 h-10 rounded-full bg-darkRose text-soft text-xs z-50 hover:font-bold disabled:opacity-50 disabled:bg-golden disabled:hover:font-normal"
-        :disabled="lang.code === i18n.localeProperties.value.code"
-    >{{ lang.name }}</button>
+  <div class="text-sm text-golden ">
+   <form>
+      <select id="locale-select" v-model="$i18n.locale">
+        <option value="en">en</option>
+        <option value="da">da</option>
+      </select>
+    </form>
   </div>
 </template>
 
 <script setup lang="ts">
-const { locales, setLocale } = useI18n()
+import { useI18n } from 'petite-vue-i18n'
+
+const { t, messages, setLocaleMessage } = useI18n()
 
 const i18n = useI18n()
+console.log(i18n.locale.value)
 
 </script>

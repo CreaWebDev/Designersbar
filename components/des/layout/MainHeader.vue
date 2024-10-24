@@ -34,6 +34,8 @@ import MainLogo from '~/components/generic/MainLogo.vue'
 
 import { ref } from 'vue'
 
+import { useI18n } from 'petite-vue-i18n'
+
 // definePageMeta({
 //     pageTransition: {
 //         name: 'color'

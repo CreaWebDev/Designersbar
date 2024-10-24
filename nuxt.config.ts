@@ -18,24 +18,26 @@ export default defineNuxtConfig({
         ital: [100]
       }
     }
-  }], "@nuxtjs/i18n"],
+  }], 
+  // "@nuxtjs/i18n"
+],
 
-  i18n: {
-    lazy: true,
-    strategy: 'no_prefix',
-    langDir: 'i18n',
-    defaultLocale: 'en',
-    skipSettingLocaleOnNavigate: false,
-    vueI18n: './i18n.config.ts',
-    locales: [
-      { name: 'DA', code: 'da', file: 'da.json' },
-      { name: 'EN', code: 'en', file: 'en.json' }
-    ],
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: "locale",
-    },
-  },
+  // i18n: {
+  //   lazy: true,
+  //   strategy: 'no_prefix',
+  //   langDir: 'i18n',
+  //   defaultLocale: 'en',
+  //   skipSettingLocaleOnNavigate: false,
+  //   vueI18n: './i18n.config.ts',
+  //   locales: [
+  //     { name: 'DA', code: 'da', file: 'da.json' },
+  //     { name: 'EN', code: 'en', file: 'en.json' }
+  //   ],
+  //   detectBrowserLanguage: {
+  //     useCookie: true,
+  //     cookieKey: "locale",
+  //   },
+  // },
 
   devtools: { enabled: true },
   css: ['~/assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],

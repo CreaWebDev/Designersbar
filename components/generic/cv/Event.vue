@@ -1,10 +1,10 @@
 <template>
   <div class="">
     <div class="flex flex-row">
-      <div class="flex flex-col w-32 h-32 text-3xl  text-rose">
-        <font-awesome-icon class="text-rose" :icon="props.icon" ></font-awesome-icon>
+      <div class="flex flex-col w-32 h-32 text-3xl text-rose">
+        <font-awesome-icon class="text-rose w-20 md:w-32" :icon="props.icon" ></font-awesome-icon>
       </div>
-      <div class="text-golden text-sm w-2/3">
+      <div class="text-golden text-sm md:w-2/3 mr-8">
         <div class="">
           <slot name="date"></slot>
         </div>
