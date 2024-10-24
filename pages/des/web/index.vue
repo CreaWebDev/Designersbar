@@ -1,7 +1,7 @@
 <template>
     <div class="w-screen h-1/1 pb-32 flex flex-col justify-center md:justify-start pl-8">
       <p class="text-darkRose font-medium text-2xl md:text-4xl tracking-wide" style="font-family: Zeyada;">
-      {{ $t("web.headline")}}
+      {{ $t("web_headline")}}
       </p>
       <section class="w-5/6 md:w-3/5 border border-golden rounded-lg"> 
         <div ref="horizontal_scroll" 

@@ -1,173 +1,173 @@
 <template>
-    <div class="w-full pl-8">
-        <p class="text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">
-            {{ $t("cv.title") }}
+    <div class="w-full md:w-3/5">
+        <p class="pl-8 text-darkRose font-medium text-4xl tracking-wide" style="font-family: Zeyada;">
+            {{ $t("cv_title") }}
         </p>
         <!-- <a class="text-golden text-xs hover:text-darkRose hover:border-b hover:border-darkRose transition-all" href="/images/cv_piaroelj.pdf" target="_blank">
             - Download as PDF
         </a> -->
-        <Event :icon="faPlane" class="flex flex-col my-8">
+        <Event :icon="faPlane" class="flex flex-col place-self-start my-8">
             <template #date>
-                {{ $t("cv.event_1.date") }}
+                {{ $t("cv_event_1_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_1.title") }}
+                {{ $t("cv_event_1_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_1.description") }}
+                {{ $t("cv_event_1_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_1.techskills") }}
+                {{ $t("cv_event_1_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_1.testimony") }}
+                {{ $t("cv_event_1_testimony") }}
             </template>
         </Event>
         <Event :icon="faSprayCan" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_2.date") }}
+                {{ $t("cv_event_2_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_2.title") }}
+                {{ $t("cv_event_2_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_2.description") }}
+                {{ $t("cv_event_2_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_2.techskills") }}
+                {{ $t("cv_event_2_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_2.testimony") }}
+                {{ $t("cv_event_2_testimony") }}
             </template>
         </Event>
         <Event :icon="faPlane" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_3.date") }}
+                {{ $t("cv_event_3_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_3.title") }}
+                {{ $t("cv_event_3_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_3.description") }}
+                {{ $t("cv_event_3_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_3.techskills") }}
+                {{ $t("cv_event_3_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_3.testimony") }}
+                {{ $t("cv_event_3_testimony") }}
             </template>
         </Event>
         <Event :icon="faChair" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_1.date") }}
+                {{ $t("cv_event_1_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_4.title") }}
+                {{ $t("cv_event_4_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_4.description") }}
+                {{ $t("cv_event_4_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_4.techskills") }}
+                {{ $t("cv_event_4_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_4.testimony") }}
+                {{ $t("cv_event_4_testimony") }}
             </template>
         </Event>
         <Event :icon="faTractor" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_5.date") }}
+                {{ $t("cv_event_5_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_5.title") }}
+                {{ $t("cv_event_5_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_5.description") }}
+                {{ $t("cv_event_5_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_5.techskills") }}
+                {{ $t("cv_event_5_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_5.testimony") }}
+                {{ $t("cv_event_5_testimony") }}
             </template>
         </Event>
         <Event :icon="faPlane" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_6.date") }}
+                {{ $t("cv_event_6_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_6.title") }}
+                {{ $t("cv_event_6_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_6.description") }}
+                {{ $t("cv_event_6_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_6.techskills") }}
+                {{ $t("cv_event_6_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_6.testimony") }}
+                {{ $t("cv_event_6_testimony") }}
             </template>
         </Event>
         <Event :icon="faBuilding" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_7.date") }}
+                {{ $t("cv_event_7_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_7.title") }}
+                {{ $t("cv_event_7_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_7.description") }}
+                {{ $t("cv_event_7_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_7.techskills") }}
+                {{ $t("cv_event_7_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_7.testimony") }}
+                {{ $t("cv_event_7_testimony") }}
             </template>
         </Event>
         <Event :icon="faSquareEnvelope" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_8.date") }}
+                {{ $t("cv_event_8_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_8.title") }}
+                {{ $t("cv_event_8_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_8.description") }}
+                {{ $t("cv_event_8_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_8.techskills") }}
+                {{ $t("cv_event_8_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_8.testimony") }}
+                {{ $t("cv_event_8_testimony") }}
             </template>
         </Event>
         <Event :icon="faBook" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_9.date") }}
+                {{ $t("cv_event_9_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_9.title") }}
+                {{ $t("cv_event_9_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_9.description") }}
+                {{ $t("cv_event_9_description") }}
             </template>
             <template #techSkills>
-                {{ $t("cv.event_9.techskills") }}
+                {{ $t("cv_event_9_techskills") }}
             </template>
             <template #testimony>
-                {{ $t("cv.event_9.testimony") }}
+                {{ $t("cv_event_9_testimony") }}
             </template>
         </Event>
         <Event :icon="faGraduationCap" class="flex flex-col my-8">
             <template #date>
-                {{ $t("cv.event_1.date") }}
+                {{ $t("cv_event_10_date") }}
             </template>
             <template #title>
-                {{ $t("cv.event_10.title") }}
+                {{ $t("cv_event_10_title") }}
             </template>
             <template #description>
-                {{ $t("cv.event_10.description") }}
+                {{ $t("cv_event_10_description") }}
             </template>
         </Event>
         <AsideBar :showAsideBar="true"/>

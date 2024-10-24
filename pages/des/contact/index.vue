@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col pl-8">
     <p class="text-darkRose font-medium text-4xl tracking-wide mb-4" style="font-family: Zeyada;">
-      {{ $t("contact.title")}}
+      {{ $t("contact_title")}}
     </p>
     <SoMe />      
     <section class="w-full pt-8 md:w-96">

@@ -41,10 +41,6 @@ export default {
         wiggle: 'wiggle 1s ease-in-out infinite',
         'spin-slow': 'spin 3s linear infinite'
       },
-      backgroundImage: {
-        'bg-img-mobile': "url('/images/bg/bg_mobile.svg')",
-        'bg-img': "url('/images/bg/bg.svg')",
-      },
       scale:{
         '200': '2.00'
       }
