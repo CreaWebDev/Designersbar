@@ -11,7 +11,13 @@ export default {
   theme: {
     // extend: {},
     colors: {
-      soft: '#dbbfcb',
+      soft: '#CEBC81',
+      bgDark: '#19181A',
+      textDark: '#19181A',
+      textSoft: '#B19F9E',
+      paleYellow: '#cfbc81',
+      softRose: '#a26e84',
+      superGreen: '#479860', 
       mint: '#d8f1e3', // e1f9f1
       golden: '#806543',
       darkRose: '#a6607c',
@@ -24,11 +30,13 @@ export default {
       abricot: '#F76566',
       bloody: '#692529',
       paynes: '#545f66',
-      _black: '#000000'
+      _black: '#000000',
+      _white:'#FFFFFF'
     },
     fontFamily: {
-      'sans': ['Arial'],
-      'display': ['Zeyada']
+      'sans': ['Times New Roman'],
+      'display': ['Italiana'],
+
     },
     extend: {
       keyframes: {

@@ -13,10 +13,6 @@ export default defineNuxtConfig({
       Zeyada: true,
       'Josefin+Sans': true,
       Lato: [100, 300],
-      Raleway: {
-        wght: [100, 400],
-        ital: [100]
-      }
     }
   }], 
   // "@nuxtjs/i18n"
@@ -39,7 +35,7 @@ export default defineNuxtConfig({
   //   },
   // },
 
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   css: ['~/assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
 
   postcss: {

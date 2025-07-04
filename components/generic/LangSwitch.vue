@@ -1,5 +1,5 @@
 <template>
-  <div class="text-sm text-golden ">
+  <div class="text-sm text-textSoft ">
    <form>
       <select id="locale-select" v-model="$i18n.locale">
         <option value="en">en</option>
