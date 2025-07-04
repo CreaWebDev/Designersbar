@@ -1,0 +1,41 @@
+[
+    { 
+      "imgFile": "/images/design/vlv_display.png", 
+      "appLink": "https://vinolavida.dk", "imgDisplay1": "/images/design/app_vino.png", 
+      "imgDisplay2": "/images/design/app_vino_2.png", "imgDisplay3": "/images/design/app_vino_3.png", 
+      "descriptiveText": "My idea for a wine tasting app, that lets your senses combine and guide you to taste the different grape types and distinct them from eachother,",
+      "githubLink": "https://github.com/CreaWebDev/VinoLaVida", "fileLink": "/images/design/ux/styletiles-vlv.pdf",
+      "title": "Vino La Vida", "text": "Concept & Ideation  |  UI/UX Design |  Development"
+    },
+    { 
+      "imgFile": "/images/design/lk_display.png",  
+      "appLink": "https://lillekunstner.dk", "imgDisplay1": "/images/design/app_lk_1.png", 
+      "imgDisplay2": "/images/design/app_lk_2.png", "imgDisplay3": "/images/design/app_lk_3.png", 
+      "descriptiveText": "My personal dream of a side geschäft, making graphical art posters etc. from childrens drawings.",
+      "githubLink": "https://github.com/CreaWebDev/lillekunstner", "fileLink": "/images/design/ux/styletiles-lk.pdf",
+      "title": "Lillekunstner", "text": "Concept & Ideation  |  UI/UX Design |  Development"
+    },
+    { 
+      "imgFile": "/images/design/sf-display.png",  
+      "appLink": "https://xd.adobe.com/view/a63711af-7ffe-4b96-96d0-ad4261eeab00-f364/?fullscreen", "imgDisplay1": "/images/design/app_sf_1.png", 
+      "imgDisplay2": "/images/design/app_sf_2.png", "imgDisplay3": "/images/design/app_sf_3.png", 
+      "descriptiveText": "The story of a great collaboration at the Academy. Me and my teammate´s final project, that gave us the highest grade. A website for shortfilm makers.",
+      "fileLink": "/images/design/ux/short.png","extraFile": "/images/design/ux/mockup.png", 
+      "title": "ShortFlix", "text": " Prototype  | UI/UX Design  |  Logo design"
+    },
+    { 
+      "imgFile": "/images/design/givskud_display.png",  
+      "appLink": "https://xd.adobe.com/view/6057b3b8-3dbd-4679-7e79-213b4ac0cc24-1666/", "imgDisplay1": "/images/design/app_gi1.png", 
+      "imgDisplay2": "/images/design/app_gi2.png", "imgDisplay3": "/images/design/app_gi3.png", 
+      "descriptiveText": "Another great story of a great collaboration at the Academy. Me and my teammates madethis app for Givskud Zoo, guiding the user around the park with limiteduse of electronics. I was responsible for user research, design, prototyping and the final documentation.",
+      "title": "Givskud", "text": "User research | Prototyping | UI/UX Design"
+    },
+    { 
+      "imgFile": "/images/design/sdu-display.png", 
+      "imgDisplay1": "/images/design/ux/sdu.png", 
+      "imgDisplay2": "/images/design/ux/sdu_2.png", "imgDisplay3": "/images/design/ux/sdu_3.png", 
+      "descriptiveText": "Design and UX proposal made for SDU for their physiotherapy department",
+      "fileLink": "/images/design/ux/sdu.png",
+      "title": "App for SDU", "text": "Concept & Ideation  |  UI/UX Design"
+    }
+]
